@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>PJ PONG</title>
+    <style>
+        * { padding: 0; margin: 0; }
+        canvas {
+            background: #eee;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+<canvas id="canvas" width="270" height="180"></canvas>
+
+<script src="src/util/Draw.js"></script>
+<script src="src/util/Util.js"></script>
+
+<!-- CORE -->
+<script src="src/core/Res.js"></script>
+<script src="src/core/AudioManager.js"></script>
+<script src="src/core/Entity.js"></script>
+<script src="src/core/Layer.js"></script>
+
+<script src="src/core/graphics/Camera.js"></script>
+<script src="src/core/graphics/Anim.js"></script>
+<script src="src/core/graphics/Model.js"></script>
+
+<script src="src/core/physics/Body.js"></script>
+<script src="src/core/physics/Space.js"></script>
+
+
+<!-- INPUT -->
+<script src="src/core/input/InputManager.js"></script>
+<script src="src/core/input/InputSource.js"></script>
+<script src="src/core/input/KeyboardInput.js"></script>
+
+
+<!-- ENTITIES -->
+<script src="src/entities/BallEntity.js"></script>
+<script src="src/entities/PaddleEntity.js"></script>
+
+
+<!-- CONTROLLERS -->
+<script src="src/controllers/PaddleController.js"></script>
+<script src="src/controllers/PaddleAIController.js"></script>
+<script src="src/controllers/PaddleUserController.js"></script>
+
+
+<!-- MODELS -->
+<script src="src/models/BallModel.js"></script>
+<script src="src/models/PaddleModel.js"></script>
+
+
+<!-- LAYERS -->
+<script src="src/layers/MenuLayer.js"></script>
+<script src="src/layers/EndLayer.js"></script>
+<script src="src/layers/GameLayer.js"></script>
+
+
+<!-- MAIN -->
+<script src="Main.js"></script>
+
+</body>
+</html>
